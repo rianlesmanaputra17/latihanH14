@@ -54,13 +54,19 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
                 </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-header">EXAMPLES</li>
-        </ul>
+             
       </nav>
+
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
       <!-- /.sidebar-menu -->
+      <li class="nav-item">
+      <a href="{{ url('cast') }}" class="nav-link">
+        <i class="nav-icon fas fa-edit"></i>
+        <p>casts  
+        </p>
+      </a>
+  </ul>
     </div>
     <!-- /.sidebar -->
   </aside>
